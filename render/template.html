@@ -1,0 +1,62 @@
+<!doctype html><meta charset=utf-8>
+<style>
+@font-face{font-family:Poppins;font-weight:700 900;src:url(fonts/Poppins-Bold.ttf)}
+@font-face{font-family:Poppins;font-weight:400 600;src:url(fonts/Poppins-Medium.ttf)}
+*{margin:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#1c110b;font-family:Poppins,sans-serif;color:#fff7ee}
+.sc{position:absolute;inset:0;opacity:0}
+.bg{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,#6b2d12 0%,transparent 60%),radial-gradient(800px 800px at 0% 100%,#3a1c0e 0%,transparent 60%),#1c110b}
+.big{position:absolute;left:80px;right:80px;font-weight:800;font-size:128px;line-height:1.05;letter-spacing:-2px}
+.mid{position:absolute;left:80px;right:80px;font-weight:600;font-size:64px;line-height:1.25;color:#ffd9b0}
+.acc{color:#ffb454}
+.phone{position:absolute;left:210px;width:660px;height:1330px;top:300px;border-radius:78px;background:#0b0705;padding:22px;box-shadow:0 60px 120px #000a,0 0 0 4px #3a2a20}
+.scr{position:relative;width:100%;height:100%;border-radius:58px;overflow:hidden;background:#000}
+.scr img{position:absolute;left:0;top:0;width:616px}
+.cap{position:absolute;left:80px;right:80px;top:110px;font-weight:700;font-size:70px;line-height:1.15}
+.tag{position:absolute;left:0;right:0;top:1700px;text-align:center;font-weight:700;font-size:58px;color:#ffd9b0}
+.btn{position:absolute;left:120px;right:120px;top:1010px;height:190px;border-radius:95px;background:#25d366;color:#06220f;font-weight:800;font-size:76px;display:flex;align-items:center;justify-content:center;gap:28px;box-shadow:0 24px 60px #25d36655}
+.brand{position:absolute;left:0;right:0;bottom:110px;text-align:center;font-weight:600;font-size:46px;color:#c9a98a}
+.ben{position:absolute;left:80px;right:80px;display:flex;gap:44px;align-items:center;opacity:0}
+.ben .ic{flex:0 0 150px;height:150px;border-radius:44px;background:#ffffff14;display:flex;align-items:center;justify-content:center}
+.ben svg{width:84px;height:84px;stroke:currentColor;fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.ben b{display:block;font-size:60px;line-height:1.1;font-weight:700}
+.ben span.d{display:block;margin-top:12px;font-size:40px;line-height:1.3;color:#ffd9b0;font-weight:500}
+.dots{position:absolute;left:0;right:0;top:1740px;display:flex;justify-content:center;gap:26px}
+.dots i{width:30px;height:30px;border-radius:50%;background:#5a4333}
+.dots i.on{background:#ffb454;transform:scale(1.35)}
+</style>
+<div class=bg></div>
+<div class=sc id=s1><div style="position:absolute;left:0;right:0;top:480px;display:flex;flex-direction:column;gap:56px"><div class=big style="position:static"><span class=nm></span>,</div><div class=mid style="position:static;font-size:72px">orang cari <span class=kt></span> lewat HP. Sudah ketemu usaha Anda?</div></div></div>
+<div class=sc id=s2><div class=big style="top:560px">Belum punya <span class=acc>web sendiri?</span></div><div class=mid style="top:1010px;font-size:72px">Kami sudah buatkan contohnya.</div></div>
+<div class=sc id=s3><div class=cap>Ini contoh untuk <span class=acc><span class=nm></span></span></div><div class=phone><div class=scr><img id=ph src=''></div></div></div>
+<div class=sc id=sB><div class=cap style="top:150px">Kenapa perlu <span class=acc>halaman web?</span></div>
+<div class=ben id=b1 style="top:520px"><div class=ic><svg viewBox="0 0 48 48" class=acc style="color:inherit"><rect x="14" y="4" width="20" height="40" rx="5"/><path d="M21 38h6"/></svg></div><div><b>Rapi di HP pelanggan</b><span class=d>Layanan, harga, dan lokasi dalam satu halaman.</span></div></div>
+<div class=ben id=b2 style="top:850px"><div class=ic><svg viewBox="0 0 48 48"><path d="M8 10h32v22H22l-8 8v-8H8z"/></svg></div><div><b>Satu ketukan, langsung chat</b><span class=d>Tombol WhatsApp ada di setiap bagian.</span></div></div>
+<div class=ben id=b3 style="top:1180px"><div class=ic><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18"/><path d="M24 12v13l8 5"/></svg></div><div><b>Selalu bisa dilihat</b><span class=d>Info usaha tetap tampil, bahkan saat toko tutup.</span></div></div>
+<div class=big id=bz style="top:1560px;font-size:70px;line-height:1.2;opacity:0;font-weight:700">Kami yang buatkan.<br><span class=acc>Selesai maksimal 3 hari.</span></div></div>
+<div class=sc id=s4><div class=cap><span class=acc>5 pilihan desain.</span><br>Tinggal pilih.</div><div class=phone><div class=scr><img id=ph2 src=''></div></div><div class=dots><i></i><i></i><i></i><i></i><i></i></div></div>
+<div class=sc id=s5><div class=big style="top:520px;font-size:140px">Suka?</div><div class=btn>Balas <span>MAU</span></div><div class=mid style="top:1300px;text-align:center;font-size:58px">Lihat dulu, tanpa komitmen.</div><div class=brand>Studio Web Mas Edo</div></div>
+<script>
+const Q=new URLSearchParams(location.search);const DIR='.';
+document.querySelectorAll('.nm').forEach(e=>e.textContent=Q.get('n'));document.querySelectorAll('.kt').forEach(e=>e.textContent=Q.get('k'));
+const A=Q.get('a')||'ffb454',B=Q.get('b')||'6b2d12';
+const st=document.createElement('style');st.textContent=`.acc{color:#${A}!important}.dots i.on{background:#${A}!important}.bg{background:radial-gradient(900px 900px at 80% 10%,#${B} 0%,transparent 60%),radial-gradient(800px 800px at 0% 100%,#${B}80 0%,transparent 60%),#150d09!important}`;document.head.appendChild(st);
+document.getElementById('ph').src='p1.png';
+
+const E=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2, cl=x=>Math.max(0,Math.min(1,x));
+const seg=(t,a,b,fi=.4,fo=.4)=>{if(t<a||t>b)return 0;return Math.min(cl((t-a)/fi),cl((b-t)/fo))};
+const S=id=>document.getElementById(id);
+function set(id,t,a,b){const o=seg(t,a,b);const e=S(id);e.style.opacity=o;e.style.transform=`translateY(${(1-o)*40}px)`}
+window.setT=t=>{
+ set('s1',t,0,3.6);set('s2',t,3.4,6.8);set('s3',t,6.6,13.8);set('sB',t,13.6,21.6);set('s4',t,21.4,26.2);set('s5',t,26.0,31.0);
+ [['b1',14.4],['b2',16.2],['b3',18.0],['bz',19.6]].forEach(([id,a])=>{const o=cl((t-a)/0.5);const e=S(id);e.style.opacity=o;e.style.transform=`translateX(${(1-o)*-60}px)`});
+ // s3: scroll design 1
+ const ph=S('ph');const mx=Math.min(1422,Math.max(0,(ph.naturalHeight*616/Math.max(1,ph.naturalWidth))-1286));const k=E(cl((t-7.4)/5.6));ph.style.transform=`translateY(${-k*mx}px)`;
+ // s4: cycle designs
+ const i=Math.min(4,Math.floor(Math.max(0,t-21.9)/0.9));
+ const im=S('ph2');im.src='p'+(i+1)+'.png';
+ document.querySelectorAll('.dots i').forEach((d,j)=>d.classList.toggle('on',j==i));
+ // s5 button pulse
+ const b=document.querySelector('.btn');b.style.transform=`scale(${1+0.04*Math.sin(Math.max(0,t-27)*7)})`;
+};
+</script>
